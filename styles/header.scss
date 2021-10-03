@@ -1,0 +1,11 @@
+header {
+	grid-column-end: $columns;
+	grid-column-start: 1;
+	margin-bottom: calc($spacing * 2);
+	width: 100%;
+}
+
+header h1 {
+	font-size: 3rem;
+	font-variation-settings: 'wght' 600;
+}

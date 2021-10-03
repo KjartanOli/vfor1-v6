@@ -1,1 +1,7 @@
 verkefnalysing
+node_modules
+package-lock.json
+styles.css
+old.css
+*.css.map
+*.css

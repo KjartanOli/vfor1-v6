@@ -1,0 +1,21 @@
+/* Birting á dagstíma er alltaf eins */
+time {
+	color: #{$color-text};
+	font-variation-settings: 'wght' 300;
+	padding-left: 22px;
+	position: relative;
+}
+
+time::before {
+	background-image: url('./images/clock.svg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 18px 18px;
+	content: '';
+	display: inline-block;
+	height: 18px;
+	left: 0;
+	position: absolute;
+	top: 2px;
+	width: 18px;
+}

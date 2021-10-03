@@ -1,0 +1,21 @@
+$spacing: 1rem;
+$max-width: 1400px;
+
+$color-text: #222;
+$color-border: #ccc;
+
+$offset: 20px;
+
+body {
+	display: flex;
+	justify-content: center;
+}
+
+.wrapper {
+	max-width: $max-width;
+
+	@media (max-width: $max-width) {
+		margin-left: #{$offset};
+		margin-right: #{$offset};
+	}
+}

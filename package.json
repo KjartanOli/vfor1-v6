@@ -1,0 +1,36 @@
+{
+  "name": "verkefni6",
+  "version": "1.0.0",
+  "description": "Verkefni 6 í vefforritun. Sass, npm, node",
+  "main": "index.html",
+  "scripts": {
+    "browser-sync": "browser-sync start --server files index.html *.css",
+    "sass": "sass styles/styles.scss styles.css",
+    "sass-watch": "sass --watch styles/",
+    "lint-scss": "stylelint styles/*.scss --syntax scss --fix",
+    "dev": "concurrently npm:sass-watch npm:browser-sync"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KjartanOli/vfor1-v6.git"
+  },
+  "keywords": [
+    "vefforritun",
+    "sass",
+    "npm"
+  ],
+  "author": "Kjartan Óli Ágústsson <koa20@hi.is>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KjartanOli/vfor1-v6/issues"
+  },
+  "homepage": "https://github.com/KjartanOli/vfor1-v6#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.5",
+    "concurrently": "^6.2.2",
+    "sass": "^1.42.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-sass-guidelines": "^8.0.0",
+    "stylelint-config-standard": "^22.0.0"
+  }
+}

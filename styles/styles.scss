@@ -1,0 +1,19 @@
+@import 'config';
+@import 'reset';
+@import 'fonts';
+@import 'links';
+// Stillingar fyrir "heading" elements
+@import 'headings';
+// Stillingar sem ættu að gilda fyrir allar myndir
+@import 'images';
+// Stillingar fyrir <time> element
+@import 'time';
+// Grunn stillingar sem stjórna stærð grids-ins
+@import 'grid';
+@import 'header';
+
+// Stilingar fyrir mismunandi hluta efnisins
+@import 'latest';
+@import 'most-read';
+@import 'ad';
+@import 'categories';
